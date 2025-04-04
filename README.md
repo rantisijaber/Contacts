@@ -35,7 +35,7 @@ Supports **user authentication**, **AES-256 encrypted data**, and **profile imag
 - **BCrypt** is used to hash user passwords securely  
 - **JWT** provides stateless, token-based authentication  
 - **Custom security filters** validate tokens and manage authorization  
-- **Spring Security** restricts access to endpoints based on user roles  
+- **Spring Security** restricts access to endpoints to unauthorized entities
 
 ---
 
