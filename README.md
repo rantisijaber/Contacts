@@ -1,4 +1,4 @@
-# 📇 Contact Manager
+# 📇 Contact Manager (In Progress)
 
 A secure, full-featured contact management system built with **Spring Boot**.  
 Supports **user authentication**, **AES-256 encrypted data**, and **profile image storage via AWS S3**.
