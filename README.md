@@ -12,7 +12,7 @@ Supports **user authentication**, **AES-256 encrypted data**, and **profile imag
 - **Database:** MySQL  
 - **Encryption:** AES-256 with custom `@Converter`  
 - **Cloud Storage:** AWS S3 (for profile pictures)  
-- **Security:** Custom filters, role-based access control  
+- **Security:** Custom security filters 
 - **Build Tool:** Maven 
 - **Language:** Java  
 
