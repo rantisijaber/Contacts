@@ -1,11 +1,11 @@
-# 📇 Contact Manager (In Progress)
+# Contact Manager (In Progress)
 
 A secure, full-featured contact management system built with **Spring Boot**.  
 Supports **user authentication**, **AES-256 encrypted data**, and **profile image storage via AWS S3**.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Backend:** Spring Boot, Spring Security, Spring Data JPA 
 - **Authentication:** JWT + BCrypt  
@@ -18,19 +18,19 @@ Supports **user authentication**, **AES-256 encrypted data**, and **profile imag
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔐 Secure user authentication with JWT & BCrypt  
-- 🧑‍🤝‍🧑 Register & login endpoints  
-- ➕ Add, edit, delete, and view contacts  
-- 🛡️ Custom security filters for handling JWT verification  
-- 🔒 AES-256 encryption on sensitive contact data (email, phone, notes, etc.)  
-- 🖼️ Upload contact profile pictures to AWS S3  
-- ✅ Spring Security with role-based authorization  
-- 🌐 Fully RESTful API for client integration
+- Secure user authentication with JWT & BCrypt  
+- Register & login endpoints  
+- Add, edit, delete, and view contacts  
+- Custom security filters for handling JWT verification  
+- AES-256 encryption on sensitive contact data (email, phone, notes, etc.)  
+- Upload contact profile pictures to AWS S3  
+- Spring Security with role-based authorization  
+- Fully RESTful API for client integration
 ---
 
-## 🔐 Security
+## Security
 
 - **BCrypt** is used to hash user passwords securely  
 - **JWT** provides stateless, token-based authentication  
@@ -39,7 +39,7 @@ Supports **user authentication**, **AES-256 encrypted data**, and **profile imag
 
 ---
 
-## 📦 AWS S3 Integration
+## AWS S3 Integration
 
 - Profile pictures for contacts are uploaded to an **Amazon S3 Bucket**  
 - Uploads and access are handled securely via the backend  
